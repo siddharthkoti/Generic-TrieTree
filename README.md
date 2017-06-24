@@ -9,14 +9,14 @@ string associated with that node, and the root is associated with the empty stri
 Rather, values tend only to be associated with leaves, and with some inner nodes that correspond to keys of interest.
 
 Key features:
-  The Trie Tree is implemented in C++, concntrating highly on use of templates.
+
+  * The Trie Tree is implemented in C++, concntrating highly on use of templates.
   
-  The Trie tree can hold any Generic object as a value and can be accessed by the its key which is a string.
+  * The Trie tree can hold any Generic object as a value and can be accessed by the its key which is a string.
   
-  Basic functions like insert, search, remove, traverse, keys are implemented.
+  * Basic functions like insert, search, remove, traverse, keys are implemented.
   
-  Operator '[]' is overloaded to insert a key-value pair to the trie-tree is it does not exist and also retrive value for the given key.
+  * Operator '[]' is overloaded to insert a key-value pair to the trie-tree is it does not exist and also retrive value for the given key.
   
-  An Iterator is implemeted that extends std::input_iterator_tag so as to work with few STL algorithms like find, find_if, for_each, 
-  
+  * An Iterator is implemeted that extends std::input_iterator_tag so as to work with few STL algorithms like find, find_if, for_each,
   count, count_if, copy, copy_if, lexicographical_compare, begin(), end().
