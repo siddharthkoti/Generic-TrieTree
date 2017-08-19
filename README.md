@@ -16,7 +16,7 @@ Key features:
   
   * Basic functions like insert, search, remove, traverse, keys are implemented.
   
-  * Operator '[]' is overloaded to insert a key-value pair to the trie-tree is it does not exist and also retrive value for the given key.
+  * Operator '[]' is overloaded to insert a key-value pair to the trie-tree if it does not exist and also retrive value for the given key.
   
   * An Iterator is implemeted that extends std::input_iterator_tag so as to work with few STL algorithms like find, find_if, for_each,
   count, count_if, copy, copy_if, lexicographical_compare, begin(), end().
